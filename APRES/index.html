@@ -3,30 +3,26 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="language" content="fr-FR" />
-    <!-- LOCAL SEO -->
+    <meta charset="UTF-8" />
+    <title>Nina Carducci - Photographe professionelle à Bordeaux</title>
     <meta
       name="description"
       content="Site professionnel de Nina Carducci, photographe portraits et événementiel à Bordeaux"
     />
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "France",
-          "addressLocality": "Bordeaux",
-          "postalCode": "33200",
-          "streetAddress": "68 avenue Alsace-Lorraine"
-        },
-        "image": "https://ninacarducci.github.io/assets/images/nina.webp",
-        "name": "Nina Carducci",
-        "description": "Photographe professionnelle portraits et événementiel",
-        "telephone": "05 56 67 78 89",
-        "openingHours": "Du lundi au vendredi de 10:00 à 19:00",
-        "url": "https://ninacarducci.github.io"
-      }
-    </script>
+    <!-- STYLESHEET AND FONT -->
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap/bootstrap.min.css"
+      preload
+    />
+    <link rel="stylesheet" href="./assets/style.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+      rel="stylesheet"
+      disabled
+    />
     <!-- SOCIAL MEDIA SEO -->
     <meta property="og:type" content="business.business" />
     <meta
@@ -42,37 +38,20 @@
       property="og:description"
       content="Site professionnel de Nina Carducci, photographe portraits et événementiel à Bordeaux"
     />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta
-      property="business:contact_data:street_address"
-      content="68 avenue Alsace-Lorraine"
+      name="twitter:title"
+      content="Nina Carducci - Photographe professionelle à Bordeaux"
     />
-    <meta property="business:contact_data:locality" content="Bordeaux" />
-    <meta property="business:contact_data:region" content="Gironde" />
-    <meta property="business:contact_data:postal_code" content="33200" />
-    <meta property="business:contact_data:country_name" content="France" />
-    <link
-      rel="stylesheet"
-      href="./assets/bootstrap/bootstrap.min.css"
-      preload
+    <meta
+      name="twitter:description"
+      content="Site professionnel de Nina Carducci, photographe portraits et événementiel à Bordeaux"
     />
-    <link rel="stylesheet" href="./assets/style.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-      rel="stylesheet"
-      disabled
+    <meta
+      name="twitter:image"
+      content="https://ninacarducci.github.io/assets/images/nina.webp"
     />
-    <meta charset="UTF-8" />
-    <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <script src="./assets/maugallery.js"></script>
-    <script src="./assets/scripts.js"></script>
-    <title>Nina Carducci - Photographe professionelle Bordeaux</title>
+    <meta name="twitter:url" content="https://ninacarducci.github.io" />
   </head>
   <body>
     <header class="top-header">
@@ -349,5 +328,35 @@
         </div>
       </div>
     </footer>
+    <!-- SCRIPTS -->
+    <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/maugallery.min.js"></script>
+    <script src="./assets/scripts.js"></script>
+    <!-- LOCAL SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "FR",
+          "addressLocality": "Bordeaux",
+          "postalCode": "33200",
+          "streetAddress": "68 avenue Alsace-Lorraine"
+        },
+        "image": "https://ninacarducci.github.io/assets/images/nina.webp",
+        "name": "Nina Carducci",
+        "description": "Photographe professionnelle portraits et événementiel",
+        "telephone": "05 56 67 78 89",
+        "openingHours": "Du lundi au vendredi de 10:00 à 19:00",
+        "url": "https://ninacarducci.github.io"
+        "priceRange" : "50€ - 400€"
+      }
+    </script>
   </body>
 </html>
