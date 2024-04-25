@@ -2,7 +2,54 @@
 <html lang="fr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Site professionnel de Nina Carducci" />
+    <meta name="language" content="fr-FR" />
+    <!-- LOCAL SEO -->
+    <meta
+      name="description"
+      content="Site professionnel de Nina Carducci, photographe portraits et événementiel à Bordeaux"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "France",
+          "addressLocality": "Bordeaux",
+          "postalCode": "33200",
+          "streetAddress": "68 avenue Alsace-Lorraine"
+        },
+        "image": "https://ninacarducci.github.io/assets/images/nina.webp",
+        "name": "Nina Carducci",
+        "description": "Photographe professionnelle portraits et événementiel",
+        "telephone": "05 56 67 78 89",
+        "openingHours": "Du lundi au vendredi de 10:00 à 19:00",
+        "url": "https://ninacarducci.github.io"
+      }
+    </script>
+    <!-- SOCIAL MEDIA SEO -->
+    <meta property="og:type" content="business.business" />
+    <meta
+      property="og:title"
+      content="Nina Carducci Photographe portraits et événementiel"
+    />
+    <meta property="og:url" content="https://ninacarducci.github.io" />
+    <meta
+      property="og:image"
+      content="https://ninacarducci.github.io/assets/images/nina.webp"
+    />
+    <meta
+      property="og:description"
+      content="Site professionnel de Nina Carducci, photographe portraits et événementiel à Bordeaux"
+    />
+    <meta
+      property="business:contact_data:street_address"
+      content="68 avenue Alsace-Lorraine"
+    />
+    <meta property="business:contact_data:locality" content="Bordeaux" />
+    <meta property="business:contact_data:region" content="Gironde" />
+    <meta property="business:contact_data:postal_code" content="33200" />
+    <meta property="business:contact_data:country_name" content="France" />
     <link
       rel="stylesheet"
       href="./assets/bootstrap/bootstrap.min.css"
@@ -25,25 +72,7 @@
     ></script>
     <script src="./assets/maugallery.js"></script>
     <script src="./assets/scripts.js"></script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Bordeaux",
-          "postalCode": "33200",
-          "streetAddress": "68 avenue Alsace-Lorraine"
-        },
-        "image": "https://ninacarducci.github.io/assets/images/nina.webp",
-        "name": "Nina Carducci",
-        "description": "Photographe professionnelle portraits et événementiel",
-        "telephone": "05 56 67 78 89",
-        "openingHours": "Du lundi au vendredi de 10:00 à 19:00",
-        "url": "https://ninacarducci.github.io"
-      }
-      </script>
-    <title>Nina Carducci Photographe</title>
+    <title>Nina Carducci - Photographe professionelle Bordeaux</title>
   </head>
   <body>
     <header class="top-header">
@@ -63,8 +92,8 @@
             /></a>
           </li>
         </ul>
-	</nav>
-</header>
+      </nav>
+    </header>
     <section id="header">
       <div
         id="carouselExampleIndicators"
@@ -160,7 +189,7 @@
       </div>
     </section>
     <main id="gallery">
-      <h2 class="title">Portfolio</h3>
+      <h2 class="title">Portfolio</h2>
       <div class="container py-3">
         <div class="gallery" style="display: none">
           <img
@@ -227,14 +256,14 @@
               qu’un fait est traduit en photo, il cesse d’être un fait pour
               devenir une opinion. L’inexactitude n’existe pas en photographie.
               Toutes les photos sont exactes. Aucune d’elles n’est la vérité.
-			</h3>
+            </h3>
           </blockquote>
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
       </div>
     </main>
     <section id="services">
-      <h2 class="title">Mes services</h3>
+      <h2 class="title">Mes services</h2>
       <div class="container">
         <div class="service">
           <div class="service__description">
@@ -285,7 +314,7 @@
             De manière inconsciente, je crois, je guette un regard, une
             expression, des traits ou une nostalgie capable de résumer ou plus
             exactement de révéler une vie
-		  </h3>
+          </h3>
         </blockquote>
         <figcaption class="quote__author">- Richard Avedon</figcaption>
       </figure>
@@ -313,7 +342,10 @@
           </form>
         </div>
         <div class="picture right">
-          <img src="./assets/images/camera.webp" alt="Image d'un appareil photo" />
+          <img
+            src="./assets/images/camera.webp"
+            alt="Image d'un appareil photo"
+          />
         </div>
       </div>
     </footer>
